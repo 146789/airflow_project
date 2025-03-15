@@ -19,6 +19,7 @@ dag = DAG(-dag
     'dummy_dag',
     default_args=default_args,
     description='A dummy dag',
+    start_date=datetime(2024, 3, 15),
     schedule_interval=None,
     catchup=False,
     tags=['dev']
